@@ -110,39 +110,58 @@ cp .env.local.example .env.local
 
 ---
 
-## ▶️ Running NetSphere
+## ▶️ Running NetSphere on Windows
 
-### Start Frontend
+NetSphere includes an automated Windows launcher that starts both the frontend and backend services.
+
+### Steps
+
+1. Download or clone this repository:
 
 ```bash
-npm run dev
+git clone https://github.com/yourusername/netsphere.git
 ```
 
-Frontend runs at:
+2. Open the project folder.
+
+3. Double-click:
+
+```
+start-windows.bat
+```
+
+4. The launcher will automatically:
+   - Install required dependencies
+   - Start the Trace Service backend
+   - Start the Next.js frontend
+   - Open the application in your browser
+
+5. Once running, open:
 
 ```
 http://localhost:3000
 ```
 
-### Start Trace Service
+### Stopping the application
 
-Open another terminal:
-
-```bash
-cd mini-services/trace-service
-npm install
-npm run dev
-```
-
-Backend runs on:
+Close the terminal windows opened by the launcher or press:
 
 ```
-http://localhost:3003
+CTRL + C
 ```
 
 ---
 
-## 🎮 Usage
+## ⚙️ Requirements
+
+Before running NetSphere, make sure you have:
+
+- Windows 10/11
+- Node.js 18 or newer installed
+- npm installed
+- Internet connection for first-time dependency installation
+
+No additional hardware is required. NetSphere runs on a standard laptop.
 
 1. Open NetSphere in your browser
 2. Enter a domain:
