@@ -2,6 +2,8 @@
 
 Watch real DNS, TLS, CDN detection, and a live traceroute animate across a 3D globe. No simulated data — every hop is a real router on the public internet. Built for VoltHacks.
 
+DOWNLOAD THE ZIP FILE .
+
 ---
 
 ## Run it on Windows (5-minute setup)
