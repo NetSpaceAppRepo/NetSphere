@@ -1,0 +1,40 @@
+```
+# Dependencies
+node_modules/
+mini-services/trace-service/node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Runtime data
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Prisma
+prisma/migrations/
+prisma/generated/
+
+# Bun
+bun.lock
+mini-services/trace-service/bun.lock
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+```
